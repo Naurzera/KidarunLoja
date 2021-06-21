@@ -1,0 +1,44 @@
+categoria-principal:
+  # De 1 a 6
+  quantidade-de-linhas: 6
+  titulo: "&5Servidor &7- &6Loja"
+  # 'nome da categoria: MATERIAL,durability,NOME,LORE(use %% para quebrar linha),slot'
+  categorias:
+    itenspvp: "DIAMOND_SWORD,0,&bItens de PvP, %%&fEncontre nessa categoria%%&fItens para batalhar contra
+    os outros jogadores!%% ,7"
+
+loja-money:
+  # Lojas de página múltipla:
+  # Serão criadas páginas em fileira conforme a quantidade de itens inseridos na categoria
+  multiplas-paginas:
+    blocos:
+      titulo: "&8Blocos - P?gina %p"
+      # MATERIAL: "QUANTIDADE,DURABILIDADE,VALOR"
+      itens:
+        - 'STONE,64,0,1000.0'
+  pagina-unica:
+    # Categoria: "titulo da categoria"
+    itenspvp:
+      titulo: "&bItens de PvP"
+      itens:
+      # Slot que o item vai ficar dentro da categoria
+        13:
+          material: "DIAMOND_SWORD"
+          quantidade: 1
+          durabilidade: 0
+          name: "Espada Exemplo"
+          valor: 900000.0
+          desc:
+            - ''
+            - 'Eu sou um exemplo de descrição!'
+            - ''
+            - 'Espada encontrada no tesouro'
+            - 'da ilha tropical'
+            - ''
+            - 'Custo: %custo%'
+            - ''
+          encantamentos:
+          # ENCHANTMENT:LEVEL
+            - 'DAMAGE_ALL:5'
+            - 'DURABILITY:2'
+            - 'LOOT_BONUS_MOBS:2'

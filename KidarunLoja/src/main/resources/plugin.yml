@@ -1,0 +1,9 @@
+name: KidarunLoja
+version: 1.0.0
+description: Server's shop
+author: Naur
+# If you have any trouble using this plugin, contact me in discord: Naur#8062
+main: com.kidarun.loja.Main
+softdepend:
+  - Vault
+  - TintaEconomiaSecundaria
